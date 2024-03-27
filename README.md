@@ -22,8 +22,7 @@ Please follow the steps below to complete the task:
 
 ## Extra Points
 
-1. Use State Management.
-2. Make the web app gives the user a fried chicken restaurant vibe.
-3. Make it responsive.
+1. Make the web app gives the user a fried chicken restaurant vibe.
+2. Make it responsive.
 
 Please feel free to reach out if you have any questions or need further assistance.
