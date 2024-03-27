@@ -8,12 +8,23 @@ Use your React Js Skills to build an app that can find the best Fried Chicken Re
 
 Please follow the steps below to complete the task:
 
-1. Make a component that represents a page that displays a list of fried chicken restaurants (so the initial restaurants' list should be here).
-2. Make a `RestaurantCard` component to represent each restaurant (from the list) and its info (name, location, and rating(1 to 5)).
-3. Make a `RestaurantForm` component with an input field to add a new restaurant and when the user clicks the add button the new restaurant will be directly added to the list.
-4. add a delete button beside each restaurant to let users delete it.
-5. add a change rate button beside each restaurant to let users change the rating.
-6. When the user clicks the restaurant card should navigate to `RestaurantDetails`component with correct restaurant details.
+1. Create a `RestaurantList` component representing a page that displays a list of fried chicken restaurants. Consider adding `data-testid='restaurants-list'` to the container element `div` of the restaurant list for testing purposes.
+
+2. Design a `RestaurantCard` component to showcase each restaurant's information. Include details like name, location, and a rating system (1-5 stars). Make sure to add these props attributes to target specific elements within the card for testing:
+   a. `data-testid='restaurant-name'` for the restaurant name element.
+   b. `data-testid='restaurant-location'` for the restaurant location element.
+   c. `data-testid='restaurant-rating'` for the rating element.
+
+3. Build a `RestaurantForm` component with an input field for users to add new restaurants to the list. Clicking an "Add" button should seamlessly add the new restaurant. Include these data-testid attributes for testing:
+   a. `data-testid='restaurant-name-input'` for the name input field.
+   b. `data-testid='restaurant-location-input'` for the location input field.
+   c. `data-testid='range-input'` for the rating input field (assuming it's a range input).
+
+4. Add a "Delete" button beside each restaurant card. This allows users to remove unwanted restaurants from the list.
+
+5. Add a "Change Rate" button next to each restaurant card, allowing users to modify the rating.
+
+6. When a user clicks on a specific restaurant card, the app should navigate to a dedicated `RestaurantDetails` component. This component will display detailed information about the chosen restaurant.
 
 ## Rules
 
