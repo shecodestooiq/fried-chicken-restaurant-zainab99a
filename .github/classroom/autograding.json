@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "fried-chicken-restaurant",
+      "setup": "npm install",
+      "run": "npm test",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 60,
+      "points": 100
+    }
+  ]
+}

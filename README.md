@@ -2,17 +2,18 @@
 
 Dear students,
 
-Use your React Js Skills to build an app that can find the best Fried Chicken Resturant in Baghdad
+Use your React Js Skills to build an app that can find the best Fried Chicken Restaurant in Baghdad
 
 ## Task Instructions
 
 Please follow the steps below to complete the task:
 
 1. Make a component that represents a page that displays a list of fried chicken restaurants (so the initial restaurants' list should be here).
-2. Make a component to represent each restaurant (from the list)and its info (name, location, and rating(1 to 5)).
-3. Add an input field to add a new restaurant and when the user clicks the add button the new restaurant will be directly added to the list.
+2. Make a `RestaurantCard` component to represent each restaurant (from the list) and its info (name, location, and rating(1 to 5)).
+3. Make a `RestaurantForm` component with an input field to add a new restaurant and when the user clicks the add button the new restaurant will be directly added to the list.
 4. add a delete button beside each restaurant to let users delete it.
 5. add a change rate button beside each restaurant to let users change the rating.
+6. When the user clicks the restaurant card should navigate to `RestaurantDetails`component with correct restaurant details.
 
 ## Rules
 
