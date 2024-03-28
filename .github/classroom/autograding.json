@@ -3,7 +3,7 @@
     {
       "name": "fried-chicken-restaurant",
       "setup": "npm install",
-      "run": "npm test",
+      "run": "npm test a",
       "input": "",
       "output": "",
       "comparison": "exact",
